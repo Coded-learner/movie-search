@@ -1,0 +1,135 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#nav {
+    background-color: #2C2A4A;
+    padding: 0px 5px;
+    justify-items: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* display: none; */
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#nav li{
+    padding: 15px;
+    margin: 0px 3px;
+    color: #FFF;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-btn {
+    background-color: #907AD6;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 10px #DABFFF, inset -4px -4px 10px #4F518C;
+    color: #4d4d4d;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 30px;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid rgb(206, 206, 206);
+  }
+  
+.nav-btn:hover {
+    box-shadow: inset 2px 2px 5px #DABFFF, inset -2px -2px 5px #4F518C, 2px 2px 5px #DABFFF, -2px -2px 5px #4F518C;
+}
+
+#home {
+    background-color: #DABFFF;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h2{
+    font-family: "Raleway Dots", sans-serif;
+    font-size: 50px;
+}
+
+.text p{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#search {
+    height: 20dvh;
+    background-color: #907AD6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textbox {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 40dvw;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#btn_submit {
+    display: none;
+}
+
+#result {
+    display: grid;
+    min-height: 50dvh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: start;
+    padding: 50px;
+    background-color: #4F518C;
+}
+
+.item-frame {
+    background: #DABFFF;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #907AD6;
+}
+
+#result img{
+    width: 259.2px;
+    height: 384.0px;
+    border-radius: 30px;
+}
+
+.info {
+    padding: 0px 15px;
+    line-height: 5px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.dot {
+    display: inline-block;
+    background-color: grey;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin: 0px 20px;
+}
